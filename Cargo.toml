@@ -1,0 +1,15 @@
+[package]
+name = "jwt_generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jsonwebtoken = "9.3.0"
+serde = { version = "1.0.202", features = ["derive"] }
+serde_json = "1.0.117"
+openssl = "0.10.0"
+uuid = "1.8.0"
+chrono = "0.4.38"
+log = "0.4.21"
+colored = "2.1.0"
+hex = "0.4.3"
